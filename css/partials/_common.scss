@@ -1,0 +1,72 @@
+
+
+ $primary-color: #0b60a9;
+ $secondary-color: #888;
+ $normal-font:14px;
+
+ @mixin btn-blue {
+    background-color: #0b60a9;
+    min-width: inherit;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 0px;
+    border-color: #0b60a9;
+    height: 50px;
+    width: auto;
+    color: white;
+
+  
+ }
+
+ .italic-p
+ {
+     font-style: italic;
+     letter-spacing: 1.5px;
+     font-weight: 500;
+     font-size: 14px;
+     color: rgb(138, 136, 136);
+ }
+
+ .btn-blue-black{
+  @include btn-blue;
+
+    &:hover{
+        background-color: black;
+        color: white;
+        font-weight: 500;
+    }
+ }
+
+ .btn-blue-white{
+    @include btn-blue;
+  
+      &:hover{
+          background-color: white;
+          color: black;
+          font-weight: 500;
+      }
+
+      
+   }
+
+
+
+   .btn-white-blue{
+    @include btn-blue;
+    background-color: white;
+        border-color: white;
+        color: $primary-color;
+      &:hover{
+        background-color: #0b60a9;
+        border-color: #0b60a9;
+        color: white;
+        
+          font-weight: 500;
+      }
+
+      
+   }
+   
+   .clearfix {
+    clear: both;
+}

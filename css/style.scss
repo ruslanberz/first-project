@@ -1,0 +1,150 @@
+
+@import 'partials/common';
+@import 'partials/first';
+@import 'partials/features';
+@import 'partials/promo';
+@import 'partials//wearethebest';
+@import 'partials/feature';
+@import 'partials/latestnews';
+@import 'partials/call-to-action';
+@import 'partials/team';
+@import 'partials/testimonial';
+@import 'partials/upcoming';
+@import 'partials/nullam';
+@import 'partials/choose';
+@import 'partials/contact';
+@import 'partials/our-work';
+@import 'partials/choose-the-best';
+@import 'partials/interested';
+@import 'partials/logos';
+@import 'partials/footer-widgets';
+@import 'partials/footer';
+@import 'partials/ineedhelp';
+@import 'partials/mobile-menu-button';
+@import 'partials/about-section';
+@import 'partials/single-portfolio';
+
+
+
+.col-12, .col-sm-12{
+    /* display: flex;
+    justify-content: center;
+    overflow-y: hidden; */
+}
+
+.custom-all-width-col-lg-4{
+    padding: 7.5px;
+    overflow: hidden;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+
+    
+}
+
+
+body, button, input, select, textarea {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    i[class^="icon-"] {
+        font-size: 36px;
+        margin: 0;
+        display: block;
+        color: $primary-color;
+        height: auto;
+        width: auto;
+        border: none;
+        padding: 0;
+    }
+
+   
+    .container {
+        @media screen and  (min-width: 1200px){
+            max-width: 1230px;
+        }
+
+        max-width: 100%;
+      
+    }
+  
+   
+    .section-divider  {
+
+    
+        height: 3px;
+        width: 80px;
+        margin: 0 0 15px;
+        border-bottom: 2px solid #0b60a9;
+        position: relative;
+        display: inline-block;
+    
+        &::after{
+            width: 45px;
+            height: 2px;
+            margin-left: 17px;
+            content: "";
+            display: block;
+            background: $primary-color;
+            margin: 5px auto;
+        }
+    
+    }
+    
+    .section-subtitle {
+        font-size: 16px;
+        margin: 0 auto 50px;
+        max-width: 700px;
+        text-align: center;
+        
+    }
+
+    .know-more {
+        text-decoration: none;
+        transition: 0.3s;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -o-transition: 0.3s;
+        -ms-transition: 0.3s;
+        font-weight: 600;
+        font-size: 14px;
+        color: black;
+        transition: 0.3s;
+    
+        &:hover {
+            color: $primary-color;
+            &:after{
+                content: '\f00c';
+                color: $primary-color;  
+            }
+    
+        }
+        &:after{
+            content: '\f30b';
+            font-family: 'Font Awesome 5 Free';
+        padding-left: 6px;
+        font-weight: normal;
+        font-size: 12px;
+        font-weight: 900;
+        
+    
+        }  
+    }
+   
+}
+
+body {
+    h1, h2, h3, h4, h5, h6 {
+        margin: 0 0 10px 0;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        line-height: 1.5;
+
+}
+
+h3 {
+    font-size: 22px;
+}
+
+}

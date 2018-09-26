@@ -1,0 +1,122 @@
+#choose {
+
+  p  {
+   color: $secondary-color;
+    }
+
+padding: 90px 0;
+    .skillbar {
+        position: relative;
+        display: block;
+        margin-bottom: 15px;
+        width: 100%;
+        background: #f5f5f5;
+        height: 5px;
+        -webkit-transition: 0.4s linear;
+        -moz-transition: 0.4s linear;
+        -ms-transition: 0.4s linear;
+        -o-transition: 0.4s linear;
+        transition: 0.4s linear;
+        -webkit-transition-property: width, background-color;
+        -moz-transition-property: width, background-color;
+        -ms-transition-property: width, background-color;
+        -o-transition-property: width, background-color;
+        transition-property: width, background-color;
+    }
+    .skillbar-item {
+        margin-bottom: 35px;
+    }
+    .skillbar-item h3 {
+        font-size: 18px;
+    }
+    .skillbar-1 .skillbar-bar {
+        background: #67bbf7;
+    }
+    #content .section-title {
+        margin-bottom: 10px;
+        position: relative;
+        font-size: 33px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .skillbar-bar {
+        height: 10px;
+        width: 0px;
+        background: #0b60a9;
+        position: relative;
+        display: block;
+        top: -3px;
+        left: 0;}
+
+
+        .skillbar-2 .skillbar-bar {
+            background: #7e87c9;
+        }
+
+        .skillbar-3 .skillbar-bar {
+            background: #c9048e;
+        }
+
+        .skillbar-4 .skillbar-bar {
+            background: #dd9933;
+        }
+
+        .title {
+            position: relative;
+            
+        }
+        .skillbar-title {
+            float:left  ;
+        }
+
+        .skill-bar-percent {
+            position: absolute;
+           
+            right: 5%;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+        @keyframes skillbar {
+            from { width: 0; }
+            to   { width: 90%; }
+        }
+
+        @keyframes skillbar1 {
+            from { width: 0; }
+            to   { width: 80%; }
+        }
+
+        @keyframes skillbar2 {
+            from { width: 0; }
+            to   { width: 70%; }
+        }
+        @keyframes skillbar3 {
+            from { width: 0; }
+            to   { width: 60%; }
+        }
+
+
+        .one{
+            animation: skillbar 2s;
+            animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+            animation-fill-mode: forwards;
+        }
+        .two{
+            animation: skillbar1 2s;
+            animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+            animation-fill-mode: forwards;
+        }
+        .three{
+            animation: skillbar2 2s;
+            animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+            animation-fill-mode: forwards;
+        }
+        .four{
+            animation: skillbar3 2s;
+            animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+            animation-fill-mode: forwards;
+        }
+}

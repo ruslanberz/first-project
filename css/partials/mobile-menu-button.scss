@@ -1,0 +1,45 @@
+
+    #mobile-menu-button {
+        display: none; }
+      
+      @media screen and (max-width: 768px) {
+        #mobile-menu-button {
+          display: block;
+          width: 100%;
+          background-color: #25292f; 
+          #simple-menu{
+            color: #fff;
+            padding: 5px 10px;
+            display: inline-block; }
+        
+            .mob-sidr-menu{
+    
+                .mob-sub-menu {
+                    display: none;
+                }
+                ul {
+                    list-style-type: none;
+                    padding: 0;
+                    margin: 0; 
+                
+                li{
+                     a {
+                        display: inline-block;
+                        text-decoration: none;
+                        color: #fff;
+                        width: 210px; .menuless{
+                            width: 100%;
+                        }
+                     }
+                    span {
+                        background-color: #1a1d21;
+                        float: right;
+                        padding: 0 20px;
+                        box-shadow: 0 0 37px #464444 inset;
+                        cursor: pointer;
+                    }
+                }}
+            }
+        }
+         
+    }

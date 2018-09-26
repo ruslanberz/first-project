@@ -1,0 +1,13 @@
+#ineedhelp {
+  padding: 30px 0; }
+  #ineedhelp .iconbox {
+    display: flex; }
+  #ineedhelp .text-headerico {
+    padding-left: 20px; }
+  #ineedhelp .headercontent-wrapper {
+    display: flex;
+    justify-content: flex-end; }
+  #ineedhelp .headcontact-item {
+    margin-right: 20px; }
+
+/*# sourceMappingURL=ineedhelp.css.map */

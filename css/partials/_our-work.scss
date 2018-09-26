@@ -1,0 +1,133 @@
+#our-work {
+
+
+    @media screen and  (max-width: 768px){
+        .image-grid {
+           margin-left: 0px!important;
+        }
+
+
+        .center-col {
+  
+        }
+    }
+    padding: 90px 0;
+
+    .image-grid{
+        height: 285px;
+        width: 350px;
+        margin-left: 25px;
+      
+        img{
+            max-width: 100%
+        }
+    }
+
+    li {
+        display: inline-block;
+        margin-left: 15px;
+        &:hover{
+            text-decoration: none;
+            color: $primary-color;
+        }
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .stopa {
+        cursor: pointer;
+        padding-bottom:10px; 
+        &:active {
+            color: $primary-color;
+            cursor: default;
+            position: relative;
+            border-bottom: 3px solid $primary-color;;
+            cursor: pointer;
+        }
+        &:hover {
+            color: #0b60a9;
+            cursor: default;
+            position: relative;
+            border-bottom: 3px solid $primary-color;;
+            cursor: pointer;
+        }
+        &::selection {
+            color: #0b60a9;
+            cursor: default;
+            position: relative;
+            border-bottom: 3px solid $primary-color;;
+            cursor: pointer;
+
+
+        }
+        
+    }
+
+   .overlay { 
+       
+
+       &::before{
+           content: '';
+    
+            background: rgba(0, 0, 0, 0.4392156862745098);
+            top: 0;
+            height: 92%;
+            content: "";
+            display: block;
+            left: 0;
+            opacity: 0;
+            position: absolute;
+            -webkit-transition: all 0.3s ease 0s;
+            -moz-transition: all 0.3s ease 0s;
+            -ms-transition: all 0.3s ease 0s;
+            -o-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s;
+            width: 100%;
+        
+       }
+
+       &:hover {
+           &::before{
+               opacity: 1;
+           }
+
+           .hover-content {
+               opacity: 1;
+           }
+       }
+   }
+       .hover-content {
+           position: absolute;
+           top: 23%;
+           left: 13%;
+           opacity: 0;
+
+
+
+           
+       }
+  
+    .fa-search  {
+        color: black;
+        border-radius: 100%;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        background-color: white;
+    }
+
+    .p-hover {
+      color: white;
+    }
+
+    .a-hover {
+        color: white;
+
+        &:hover{
+            text-decoration: none;
+            color: $primary-color;
+        }
+    }
+}

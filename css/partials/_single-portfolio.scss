@@ -1,0 +1,109 @@
+#single-portfolio {
+
+    padding: 90px 0;
+
+    @media screen and (max-width:768px ){
+       padding: 30px 0;
+    }
+
+    .information-portfolio {
+        ul{
+            li {
+                display: flex;
+                justify-content: space-between;
+            }
+
+        }
+    }
+
+    .foot-social-icons{
+
+        color: #bdbdbd;
+    display: block;
+    border: 2px solid #cacaca;
+    border-radius: 100%;
+    display: inline-block;
+    height: 40px;
+    line-height: 1.7;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    width: 40px;
+    overflow: hidden;
+    margin: 5px 5px 0 5px;
+
+     i {
+        font-weight: 400;
+        line-height: 35px;
+        font-size: 15px;
+        display: inline;
+        margin-left: 3px;
+
+    }}
+        .social-footer {
+            display: inline-block;
+        }
+
+
+        .face {
+
+            background-color: #3b5998;
+            border-color: #3b5998;
+        }
+
+        .youtube {
+            background-color: #bb0000;
+            border-color: #bb0000;
+        }
+
+        .insta { background: #517fa4;
+            border-color: #517fa4;}
+
+            .twitter {
+                background: #00aced;
+                border-color: #00aced;
+            }
+
+            .linkedin {
+                background-color: #007bb6;
+                border-color: #007bb6;
+
+            }
+
+            strong{
+             font-style: italic;
+             padding-bottom: 5px;
+
+             &:before {
+                content: "\f00c";
+                font-family: 'Font Awesome 5 Free';
+                margin-right: 15px;
+                color: $primary-color;
+                font-size: 13px;
+                display: inline-block;
+                margin-top: 0px;
+                font-weight: 900;
+                float: left;
+             }
+            }
+
+            span{
+                padding-bottom: 5px;
+                color: $secondary-color;
+            }
+            
+            p{
+                color: $secondary-color;
+                font-size: 16px;
+    line-height: 1.75;
+
+            }
+
+            .single-p-web{
+                color:black;
+                &:hover {
+                    color: $primary-color;
+                    text-decoration: none;
+                }
+            }
+}

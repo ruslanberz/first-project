@@ -1,0 +1,23 @@
+#promo{
+    background-image: url('../images/cta-background.jpg');
+    height: 420px;
+    background-size: cover;
+   
+
+    .head-title{
+        color: white;
+    }
+
+    .head-title2{
+        font-size: 16px;
+    margin: 0 auto 50px;
+    max-width: 700px;
+    text-align: center;
+    color: white;
+    }
+
+    .wrapper  {
+        z-index: 2;
+         background-color: rgba(22, 22, 22, 0.78); 
+    }
+}

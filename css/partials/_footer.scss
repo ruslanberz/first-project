@@ -1,0 +1,40 @@
+
+
+#footer {
+
+    @media (max-width:768px)  { 
+
+        .col-12, .col-sm-12 {
+        text-align: center;
+        }
+
+        .flex-end{
+            display: block!important;
+            text-align: center;
+        }
+      } 
+
+      
+
+    padding: 15px 0;
+    background-color: #25292f;
+    
+    span {
+        color: white;
+    }
+
+    a {
+        color: #ccc;
+        &:hover 
+        {
+            color: white;
+            text-decoration: none;
+        } 
+      
+    }
+     .flex-end
+     {
+         display: flex;
+         justify-content: end;
+     }
+}

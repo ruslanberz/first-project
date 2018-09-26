@@ -1,0 +1,66 @@
+#nullam{
+
+    @media (max-width:768px)  { 
+
+        .fas  {
+            margin-left: 15px;
+            margin-bottom: 15px;
+
+        }
+        h5 {
+            font-size: 18px;
+        }
+      } 
+    
+    /* padding: 140px 0; */
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        background-image: url("../images/counter/counter-bg.jpg");
+   
+
+ .wrap  {
+    
+
+    padding: 140px 0;
+    background-color: rgba(31, 31, 31, 0.78);
+    
+    position: relative;
+  
+   
+    
+}
+ 
+
+    .counter-nos {
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 1;
+        display: inline-block;
+
+    }
+    .counter-item{
+        padding: 0 25px;
+        margin: 25px 0;
+    }
+
+    .fas {
+        color: $primary-color;
+        font-size: 40px;
+        margin-right: 15px;
+    }
+
+    .divider {
+        height: 3px;
+    width: 80px;
+    margin: 25px 15px 15px 0px;
+    border-bottom: 2px solid $primary-color;
+    position: relative;
+    display: inline-block;
+       ;
+    }
+
+    .nullam-header{
+      margin-top: 25px;
+
+    }
+}

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAW;EACP,OAAO,EAAE,MAAM;EACf,mBAAQ;IACL,OAAO,EAAE,IAAI;EAGhB,0BACA;IACI,YAAY,EAAE,IAAI;EAGtB,iCACA;IACI,OAAO,EAAE,IAAI;IACb,eAAe,EAAE,QAAQ;EAM7B,4BAAkB;IACd,YAAY,EAAE,IAAI",
+"sources": ["ineedhelp.scss"],
+"names": [],
+"file": "ineedhelp.css"
+}
